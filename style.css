@@ -1,0 +1,127 @@
+.container{
+    position: relative;
+    /* border: 1px solid; */
+}
+.harmon{
+    width: 180px;
+    padding-left: 2px;
+
+}
+.firstcol{
+    padding-left: 100px;
+}
+.healthplans{
+    /* border: 1px solid purple; */
+    width: 480px;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+.better{
+    color: orange;
+    font-weight: bold;
+    font-size: larger;
+}
+.health{
+    color: darkslategray;
+    font-weight: bold;
+    font-size: 30pt;
+}
+.para{
+    color: darkslategray;
+    font-weight: bold;
+    /* border: 1px solid purple; */
+    width: 380px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.btn{
+    padding-left: 30px;
+}
+.learn{
+    background-color: orange;
+    padding: 10px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    color: white;
+}
+.secondcol{
+    background-color: darkslategray;
+    border-bottom-left-radius: 100px;
+}
+
+.lady{
+    /* border: 1px solid; */
+    border-radius: 24px;
+    position: absolute;
+    width: 400px;
+    /* display: block;. */
+    padding-left: 50px;
+    padding-top: 130px;
+}
+.gardencol{
+    padding-top: 180px;
+    border-radius: 24px;
+    padding-left: 160px;
+}
+.garden{
+    height: 300px;
+    border-radius: 20px;
+
+}
+.reason{
+    /* border: 1px solid; */
+    width: 490px;
+    height: 250px;
+    margin-top: 190px;
+    margin-left: 350px;
+}
+
+.choose{
+    color: darkslategray;
+    font-weight: bold;
+}
+.paragraph{
+    color: darkslategrey;
+    font-weight: bold;
+    font-size: smaller;
+    padding-top: 20px;
+}
+.user{
+    color:  orange;;
+    background-color: rgba(255, 166, 0, 0.201);
+    font-size: 18px;
+    padding: 5px;
+}
+/* Media queries*/
+@media (max-width: 768px) {
+    .healthplans, .para, .btn {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .lady {
+        position: static;
+        transform: none;
+        width: 100%;
+        max-width: none;
+        margin-top: 20px;
+    }
+    .gardencol {
+        padding-top: 20px;
+        padding-left: 15px;
+    }
+    .reason {
+        margin-top: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .garden{
+        position: static;
+        width: 100%;
+        max-width: none;
+        margin-top: 20px;
+    }
+}
