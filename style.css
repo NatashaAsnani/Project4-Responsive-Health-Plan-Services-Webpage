@@ -1,5 +1,5 @@
 .container-fluid{
-    position: relative;
+    position: relative; 
     /* border: 1px solid; */
 }
 .harmon{
@@ -97,18 +97,43 @@
     padding: 5px;
 }
 
+
+/* Media Queries */
+@media (max-width: 992px) {
+    .secondcol {
+        padding-bottom: 50px;
+    }
+
+    .lady {
+        position: static;
+        margin-top: 40px;
+        max-width: 100%;
+        padding: 0;
+    }
+    .healthplans{
+        width: 420px;
+    }
+}
+
 @media (max-width: 768px) {
+    .firstcol, .secondcol {
+        padding: 15px;
+    }
+
     .healthplans, .para, .btn {
         padding-left: 15px;
         padding-right: 15px;
     }
 
+    .healthplans{
+        width: 420px;
+    }
+
     .lady {
         position: static;
-        transform: none;
-        width: 100%;
-        max-width: none;
-        margin-top: 20px;
+        margin-top: 40px;
+        max-width: 100%;
+        padding: 0;
     }
 
     .gardencol {
@@ -116,9 +141,37 @@
         padding-left: 15px;
     }
 
+    .garden {
+        width: 100%;
+        margin-top: 20px;
+    }
+
     .reason {
         margin-top: 20px;
         margin-left: 15px;
         margin-right: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .firstcol, .secondcol, .gardencol, .reason {
+        padding: 10px;
+        margin: 0;
+    }
+
+    .healthplans, .para, .btn {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .healthplans{
+        width: 420px;
+    }
+
+    .lady, .garden {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 40px;
+        padding: 0;
     }
 }
